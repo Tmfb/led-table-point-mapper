@@ -1,0 +1,33 @@
+body {
+  display: flex;
+  flex-direction: column;
+  background: white;
+  margin: 0;
+  color: #333;
+  text-align: center;
+}
+
+.mainCanvas {
+  border: 5px solid #333;
+  margin: 0 auto;
+  border-radius: 1rem;
+}
+
+.buttons {
+  margin: 1rem;
+}
+
+.buttons button {
+  padding: 0.5rem 1rem;
+  margin: 0 0.5rem;
+  font-size: 1rem;
+  cursor: pointer;
+  border-radius: 0.5rem;
+  border: 2px solid #333;
+  background-color: #f0f0f0;
+  transition: background-color 0.3s;
+}
+
+.buttons button:hover {
+  background-color: #ddd;
+}

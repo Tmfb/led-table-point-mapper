@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Random Points on Canvas</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <h1>Random Points on Canvas</h1>
+
+    <!-- Canvas and Input Controls -->
+    <canvas id="myCanvas" class="mainCanvas" width="800" height="600"></canvas>
+
+    <div class="controls">
+      <label>
+        Length (mm):
+        <input type="number" id="lengthInput" value="800" min="1" />
+      </label>
+      <label>
+        Height (mm):
+        <input type="number" id="heightInput" value="60" min="1" />
+      </label>
+      <label>
+        Columns:
+        <input type="number" id="columnsInput" value="8" min="1" />
+      </label>
+      <label>
+        Rows:
+        <input type="number" id="rowsInput" value="6" min="1" />
+      </label>
+      <label>
+        Point Density:
+        <input type="number" id="densityInput" value="2" min="1" />
+      </label>
+      <label>
+        Total Points:
+        <input type="number" id="totalPointsInput" value="10" min="1" readonly />
+      </label>
+      <label>
+        Border Padding (mm):
+        <input type="number" id="paddingInput" value="10" min="0" />
+      </label>
+      <label>
+        Point Interspace (mm):
+        <input type="number" id="interspaceInput" value="5" min="1" />
+      </label>
+    </div>
+
+    <div class="buttons">
+      <button id="regenerateButton">Regenerate Canvas</button>
+      <button id="generateDxfButton">Generate DXF File</button>
+    </div>
+
+    <script src="main.js"></script>
+  </body>
+</html>
