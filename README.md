@@ -20,7 +20,7 @@ To get started with this project, follow these steps:
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/yourusername/canvas-point-generator.git
+   git clone https://github.com/Tmfb/canvas-point-generator.git
    ```
    
 2. Open the `index.html` file in a web browser to view and interact with the application.
